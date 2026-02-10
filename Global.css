@@ -138,7 +138,7 @@ nav a:hover {
   border-left: 3px solid #4b7dff;
 
 /* Mobile stuff - kdaui */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 nav {
   display: flex;
   gap: 0.2rem;
@@ -156,3 +156,4 @@ nav a:hover {
   color: #ff4081;
 }
 }
+
