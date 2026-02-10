@@ -1,0 +1,141 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #101520;
+  color: #f5f5f5;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  background: radial-gradient(circle at top, #1b2436 0, #05060a 60%);
+  border-radius: 16px;
+  border: 1px solid hwb(216 17% 69%);
+  padding: 24px 28px 32px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+}
+nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff4081;
+}
+
+
+/* Dragon header */
+.dragon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #3a4b62;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+}
+
+.dragon-name {
+  font-family: "Trajan Pro", "Cinzel", serif;
+  letter-spacing: 0.18em;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.dragon-class {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  color: #a7c4ff;
+}
+
+/* Meta info list */
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px 24px;
+  margin-bottom: 18px;
+}
+
+.meta-item-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #9fb0cc;
+}
+
+.meta-item-value {
+  font-size: 0.95rem;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 18px;
+}
+
+.section-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #b0c6ff;
+  margin-bottom: 6px;
+}
+
+.section-body {
+  font-size: 0.95rem;
+}
+
+/* Lists */
+.inline-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.inline-list li::before {
+  content: "• ";
+  color: #6eb6ff;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px 22px;
+  margin-top: 6px;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #9fb0cc;
+}
+
+.stat-value {
+  font-size: 0.98rem;
+}
+
+/* Small helper */
+.upper {
+  text-transform: uppercase;
+}
+
+/* Optional: subtle accent line under description */
+.description-block {
+  border-left: 3px solid #4b7dff;
+  padding-left: 14px;
+  margin-bottom: 18px;
+}
