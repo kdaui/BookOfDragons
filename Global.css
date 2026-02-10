@@ -139,85 +139,20 @@ nav a:hover {
 
 /* Mobile stuff - kdaui */
 @media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-  
-  .page {
-    padding: 16px 20px;
-    border-radius: 12px;
-  }
-  
-  .dragon-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  
-  .dragon-name {
-    font-size: 1.4rem;
-  }
-  
-  .dragon-class {
-    font-size: 0.85rem;
-  }
-  
-  nav {
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .meta-grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  
-  .stats-grid {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-  
-  .section-title {
-    font-size: 0.85rem;
-  }
-  
-  .section-body {
-    font-size: 0.9rem;
-  }
-  
-  .description-block {
-    padding-left: 10px;
-  }
-  
-  .dragon-photo {
-    max-width: 100%;
-    width: 100%;
-  }
+nav {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
 }
 
-@media (max-width: 480px) {
-  .dragon-name {
-    font-size: 1.2rem;
-    letter-spacing: 0.1em;
-  }
-  
-  .page {
-    padding: 12px 16px;
-  }
-  
-  nav {
-    gap: 0.8rem;
-  }
-  
-  nav a {
-    font-size: 0.9rem;
-  }
-  
-  .meta-item-value, .section-body, .stat-value {
-    font-size: 0.85rem;
-  }
-}
-  padding-left: 14px;
-  margin-bottom: 18px;
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
+nav a:hover {
+  color: #ff4081;
+}
+}
