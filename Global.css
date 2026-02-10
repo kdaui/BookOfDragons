@@ -136,6 +136,7 @@ nav a:hover {
 /* Optional: subtle accent line under description */
 .description-block {
   border-left: 3px solid #4b7dff;
+}
 
 /* Mobile stuff - kdaui */
 @media (max-width: 768px) {
@@ -165,6 +166,7 @@ nav a:hover {
     padding: 16px 20px 24px;
   }
 }
+
 
 
 
